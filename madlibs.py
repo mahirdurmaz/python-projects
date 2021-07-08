@@ -48,7 +48,7 @@ while loop :
     # Asking to user if he/she wants to play again or not.
     desicion = input("Would you like to play again? Type Yes or No: ")
     
-    if desicion == "Yes" or "yes" or "YES" or "yEs" or "yeS" :
+    if desicion == "Yes" or "yes" or "YES" or "yEs" or "yeS" : #yo go easy on it just use lowercase() bro 
       loop = 1
     else :
         print("Ok, thanks for playing Mad Libs. Goodbye!")
